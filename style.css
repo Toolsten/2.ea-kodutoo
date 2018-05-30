@@ -1,0 +1,105 @@
+h1 {
+    color: #008CBA;
+    text-align: center;
+    font-size: 20pt;
+    margin-block-start: 20px;
+    margin-block-end: 40px;
+}
+
+main > * {
+    display: none;
+}
+
+main > *:last-child {
+    display: block;
+}
+
+
+main > *:target {
+    display: block;
+}
+
+main > *:target ~ * {
+    display: none;
+}
+
+main {
+    text-align: center;
+}
+
+#gamestarter {
+    text-align: center;
+}
+
+#gamestart {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    font-size: 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+}
+
+#gamestart:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+#navbtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    font-size: 18px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+
+#navbtn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+a.button { 
+    cursor: pointer; 
+}
+
+nav {
+    text-align: center;
+    margin-block-start: 20px;
+    margin-block-end: 80px;
+}
+
+#navbtn:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+#game {
+    margin-block-start: 15%;
+}
+
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 14pt;
+    line-height: 50px;
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 24px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+    width:20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #008CBA;
+    color: white; 
+}
