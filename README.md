@@ -1,5 +1,9 @@
 # 2. kodutöö – kirjutamise mängu täiendamine
 
+## Sten-Erik Tool ja Eric Skripka
+![alt text](https://github.com/Toolsten/2.ea-kodutoo/blob/master/skeem.png)
+Skoori moodustamisel antakse iga õigesti vajutatud tähe eest antakse juurde 1 punkt, iga õigesti vastatud sõna eest korrutatakse sõnas olnud tähtede arv 10-nega ning valesti vajutatud klahvi eest võetakse maha 4 punkti ning ekraan vilgub punaselt.
+
 Mängu eesmärk on võimalikult kiiresti ekraanile tekkivaid sõnu ära trükkida. Sõnad on võetud [Eesti Keele Instituudi lehelt](http://www.eki.ee/tarkvara/wordlist/) – [lemmad2013](http://www.eki.ee/tarkvara/wordlist/lemmad2013.txt). Aluseks tuleb võtta kood **[eesrakenduste-arendamine-2018k/klahvimine](https://github.com/eesrakenduste-arendamine-2018k/klahvimine)**. 
 
 ### Tähtpäev 26.03.2018 23:59
